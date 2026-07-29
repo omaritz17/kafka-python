@@ -34,7 +34,7 @@ def producer_with_keys(record):
         )
 
     for j in range(2):
-        for i in range(10): 
+        for i in range(30): 
             key = ++i
             #send data -- Asynchronous 
             producer.produce(
